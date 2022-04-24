@@ -30,12 +30,17 @@ a{
 }
 
 p{
-    font-size: 2.3rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+ul { 
+    font-size: 3rem;
     font-weight: 300;
 }
 
 img{
     width: 100%;
+    max-width: 500px;
 }
 
 
@@ -175,6 +180,8 @@ li{
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+    max-width: 1000px;
+    margin-inline: auto;
 }
 
 /* About Me*/
@@ -217,7 +224,9 @@ li{
 
 .profile-img{
     flex: 1;
-    margin-right: 5rem;
+    margin-left: 5rem;
+    justify-content: center;
+    display: flex;
 }
 
 .about-details{
@@ -344,6 +353,15 @@ li{
         background-size: cover;
     }
 
+    p{
+        font-size: 2.3rem;
+        font-weight: 300;
+    }
+    ul { 
+        font-size: 2.3rem;
+        font-weight: 300;
+    }
+
     .landing-text h1{
         font-size: 15rem;
     }
@@ -366,7 +384,7 @@ li{
     }
 
     .about-heading h1{
-        font-size: 8rem;
+        display: none;
     }
 
     .section-heading h1{
